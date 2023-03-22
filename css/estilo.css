@@ -1,0 +1,30 @@
+a:link {
+    color: green;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    background-color: black;
+}
+
+.outher{
+    border: 5px solid black;
+    
+}
+
+.box{
+    margin: 3%;
+    /*width: calc(20% - 30px);*/
+    width: 20%;
+    background-color: rebeccapurple;
+    padding: 1%;
+    color: white;
+    height: 55%;
+    transform: rotate(0.9turn);
+
+    
+
+}
