@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <title>Aula6</title>
+</head>
+<body>
+
+    <div>
+        <h1>Interação com JS</h1>
+
+        <div>
+
+            <h2>Tabuada</h2>
+            <!---Desenvola uma pagina html que receba um numero
+                e exiba a tabuada do mesmo-->
+            <label for="numero">Digite um numero</label> 
+            <input type="number" id="numero"> 
+            <button onclick="tabuada()">Exibir tabuada</button>
+            <div id="resultado"></div>
+
+        </div>
+
+        <div>
+
+            <!--Desenvolva uma pagina HTML que receba um valor,
+            a pagina deve imprimir a mesma quantidade de h1
+            com o texo "TExTO H1"
+            Exemplo: usuario digita 10, imprimi 10 h1-->
+
+            <label for="num">Digite um numero</label>
+            <input type="number" id="num">
+            <button onclick="impressao()">Exibir resultado</button>
+            <div id="imprimir"></div>
+        </div>
+
+
+        <div>
+            <!--
+                Desenvolva um botão contador de cliques
+                deve ixibir quantos cliques o botão recebeu
+            -->
+            <h2>Contador de clicks</h2>
+
+            <button onclick="contaClick()">Clique aqui</button>
+
+            <p>Este botão recebeu 
+                <span id="clicks">0</span> cliques.
+            </p>
+
+
+        </div>
+
+
+        <div>
+            <!--Desenvolva um sorteador de inteiros-->
+
+            <h2>Sorteador de inteiros</h2>
+            <button onclick="sortear()">Clique para realizar um sorteio</button>
+            <p id="sorteio"></p>
+
+           <label for="">Entre</label>
+           <input type="number" id="min">e<input type="number" id="max">
+           <button onclick="sortear2()">Clique aqui para realizar</button>
+           <p id="sorteio2"></p>
+           
+           
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
